@@ -15,6 +15,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductsComponent } from './views/products/products.component';
+import { RedColorDirective } from './directives/red-color.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProductsComponent } from './views/products/products.component';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductsComponent
+    ProductsComponent,
+    RedColorDirective
   ],
   imports: [
     BrowserModule,
