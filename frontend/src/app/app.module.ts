@@ -25,6 +25,7 @@ import { ProductsComponent } from "./views/products/products.component";
 import { CreateProductComponent } from "./components/product/create-product/create-product.component";
 
 import { RedColorDirective } from "./directives/red-color.directive";
+import { ListProductsComponent } from './components/product/list-products/list-products.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { RedColorDirective } from "./directives/red-color.directive";
     ProductsComponent,
     RedColorDirective,
     CreateProductComponent,
+    ListProductsComponent,
   ],
   imports: [
     BrowserModule,
