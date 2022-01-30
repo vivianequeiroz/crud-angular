@@ -10,6 +10,7 @@ import { MatListModule } from "@angular/material/list";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatButtonModule } from "@angular/material/button";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
 
 import { NavComponent } from "./components/template/nav/nav.component";
 import { HeaderComponent } from "./components/template/header/header.component";
@@ -41,6 +42,7 @@ import { RedColorDirective } from "./directives/red-color.directive";
     MatListModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
