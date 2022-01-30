@@ -26,6 +26,10 @@ import { CreateProductComponent } from "./components/product/create-product/crea
 
 import { RedColorDirective } from "./directives/red-color.directive";
 import { ListProductsComponent } from './components/product/list-products/list-products.component';
+import { ProductsTableComponent } from './components/product/products-table/products-table.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -38,6 +42,7 @@ import { ListProductsComponent } from './components/product/list-products/list-p
     RedColorDirective,
     CreateProductComponent,
     ListProductsComponent,
+    ProductsTableComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,6 +58,9 @@ import { ListProductsComponent } from './components/product/list-products/list-p
     FormsModule,
     MatInputModule,
     MatFormFieldModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
