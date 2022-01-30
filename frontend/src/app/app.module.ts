@@ -16,6 +16,7 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductsComponent } from './views/products/products.component';
 import { RedColorDirective } from './directives/red-color.directive';
+import { CreateProductComponent } from './components/products/create-product/create-product.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RedColorDirective } from './directives/red-color.directive';
     NavComponent,
     HomeComponent,
     ProductsComponent,
-    RedColorDirective
+    RedColorDirective,
+    CreateProductComponent
   ],
   imports: [
     BrowserModule,
