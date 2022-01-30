@@ -1,20 +1,29 @@
 {
-    "products": [
-        {
-           "id": 1,
-           "name": "Caneca Bic Preta",
-           "price": 5.89 
-        },
-        {
-           "id": 2,
-           "name": "Notebook MacBook Pro",
-           "price": 12000.89 
-        },
-        {
-           "id": 3,
-           "name": "Samsung S20+",
-           "price": 5000.89 
-        }
-    ]
-
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneca Bic Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook MacBook Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Samsung S20+",
+      "price": 5000.89
+    },
+    {
+      "name": "iPhone XR",
+      "price": 2999.99,
+      "id": 4
+    },
+    {
+      "name": "Notebook Dell i7",
+      "price": "5.259",
+      "id": 5
+    }
+  ]
 }
