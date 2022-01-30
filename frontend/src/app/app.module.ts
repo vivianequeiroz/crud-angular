@@ -17,7 +17,7 @@ import { FooterComponent } from "./components/template/footer/footer.component";
 
 import { HomeComponent } from "./views/home/home.component";
 import { ProductsComponent } from "./views/products/products.component";
-import { CreateProductComponent } from "./components/products/create-product/create-product.component";
+import { CreateProductComponent } from "./components/product/create-product/create-product.component";
 
 import { RedColorDirective } from "./directives/red-color.directive";
 
